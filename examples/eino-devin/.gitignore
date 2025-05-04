@@ -12,14 +12,3 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 package-lock.json
-
-# Go binaries
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
-
-# Go build output
-*.test
-*.out

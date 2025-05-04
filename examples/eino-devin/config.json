@@ -1,0 +1,42 @@
+{
+  "server": {
+    "port": 8080
+  },
+  "models": {
+    "chat_model": {
+      "type": "mock",
+      "api_key": "",
+      "base_url": ""
+    },
+    "code_model": {
+      "type": "mock",
+      "api_key": "",
+      "base_url": ""
+    },
+    "embedding_model": {
+      "type": "mock",
+      "api_key": "",
+      "base_url": ""
+    }
+  },
+  "tools": {
+    "git": {
+      "enabled": true,
+      "token": ""
+    },
+    "cicd": {
+      "enabled": true,
+      "type": "jenkins",
+      "endpoint": "",
+      "token": ""
+    },
+    "kubernetes": {
+      "enabled": true,
+      "kube_config": ""
+    }
+  },
+  "knowledge": {
+    "enabled": true,
+    "path": "./knowledge"
+  }
+}

@@ -1,0 +1,208 @@
+.devops-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.devops-card {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  background-color: #fff;
+  padding: 24px;
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.card-description {
+  color: #666;
+  margin-bottom: 24px;
+}
+
+.devops-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+}
+
+.loading-text {
+  margin-top: 16px;
+  color: #666;
+}
+
+.devops-tabs {
+  margin-bottom: 24px;
+}
+
+/* 架构推荐样式 */
+.architecture-section {
+  padding: 16px;
+}
+
+.architecture-diagram {
+  background-color: #f5f5f5;
+  padding: 16px;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 16px 0;
+  font-family: monospace;
+  white-space: pre;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+/* CloudWeGo组件样式 */
+.component-item {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  transition: all 0.3s;
+}
+
+.component-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.component-details {
+  margin-top: 12px;
+}
+
+.component-benefits {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+  align-items: center;
+}
+
+/* 流水线配置样式 */
+.pipeline-section {
+  padding: 16px;
+}
+
+.pipeline-collapse {
+  margin-bottom: 24px;
+}
+
+.pipeline-code {
+  background-color: #f5f5f5;
+  padding: 16px;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-family: monospace;
+  white-space: pre;
+}
+
+.download-button {
+  margin-top: 16px;
+}
+
+.stage-item {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  transition: all 0.3s;
+}
+
+.stage-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.stage-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background-color: #1890ff;
+  color: white;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+.stage-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* 工具推荐样式 */
+.tool-card {
+  height: 100%;
+  transition: all 0.3s;
+}
+
+.tool-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.tool-benefits {
+  margin-top: 12px;
+}
+
+/* 最佳实践样式 */
+.practice-item {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  transition: all 0.3s;
+}
+
+.practice-item:hover {
+  background-color: #f0f0f0;
+}
+
+/* 操作按钮样式 */
+.devops-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  padding-top: 20px;
+  border-top: 1px solid #f0f0f0;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .devops-container {
+    padding: 10px;
+  }
+  
+  .devops-card {
+    padding: 16px;
+  }
+  
+  .architecture-diagram {
+    font-size: 12px;
+  }
+  
+  .component-item {
+    padding: 12px;
+  }
+  
+  .stage-item {
+    padding: 12px;
+  }
+  
+  .devops-actions {
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .devops-actions .ant-btn {
+    width: 100%;
+  }
+}

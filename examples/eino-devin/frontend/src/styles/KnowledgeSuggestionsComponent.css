@@ -1,0 +1,122 @@
+.knowledge-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.knowledge-card {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  background-color: #fff;
+  padding: 24px;
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.card-description {
+  color: #666;
+  margin-bottom: 24px;
+}
+
+.knowledge-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+}
+
+.loading-text {
+  margin-top: 16px;
+  color: #666;
+}
+
+.search-section {
+  margin-bottom: 24px;
+}
+
+.knowledge-tabs {
+  margin-bottom: 24px;
+}
+
+/* 建议项样式 */
+.suggestion-item {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  transition: all 0.3s;
+}
+
+.suggestion-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.suggestion-title {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.suggestion-description {
+  margin-top: 12px;
+}
+
+.code-snippet {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.code-snippet pre {
+  background-color: #f5f5f5;
+  padding: 16px;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-family: monospace;
+  white-space: pre;
+}
+
+.usage-example {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+/* 操作按钮样式 */
+.knowledge-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  padding-top: 20px;
+  border-top: 1px solid #f0f0f0;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .knowledge-container {
+    padding: 10px;
+  }
+  
+  .knowledge-card {
+    padding: 16px;
+  }
+  
+  .suggestion-item {
+    padding: 12px;
+  }
+  
+  .knowledge-actions {
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .knowledge-actions .ant-btn {
+    width: 100%;
+  }
+}
